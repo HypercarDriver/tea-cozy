@@ -4,6 +4,21 @@ body {
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
+	margin: 0;
+}
+
+nav {
+	flex-grow: 1;
+	text-align: right;
+}
+
+nav span {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+span a {
+	color: seashell;
 }
 
 /* ID's */
@@ -13,12 +28,27 @@ body {
 }
 
 #navbar {
+	background-color: black;
 	padding-left: 10px;
 	padding-right: 10px;
 	height: 64px;
 	width: 100%;
 	position: fixed;
 	border-bottom: 1px solid seashell;
+	z-index: 1;
+}
+
+#main {
+  padding-top: 69px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#mission {
+	height: 700px;
+	text-align: center;
+	background-image: url('../images/img-mission-background.jpg');
 }
 
 /* Classes */
@@ -26,4 +56,11 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	align-items: center;
 }
+
+.container {
+	background-color: black;
+	width: 100%;
+}
+
