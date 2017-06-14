@@ -51,6 +51,13 @@ span a {
 	background-image: url('../images/img-mission-background.jpg');
 }
 
+#featuredTea {
+	width: 1000px;
+	text-align: center;
+}
+
+
+
 /* Classes */
 .flex-container {
 	display: flex;
@@ -62,5 +69,10 @@ span a {
 .container {
 	background-color: black;
 	width: 100%;
+}
+
+.item > img {
+	width: 300px;
+	height: 200px;
 }
 
