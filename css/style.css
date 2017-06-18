@@ -29,8 +29,6 @@ span a {
 
 #navbar {
 	background-color: black;
-	padding-left: 10px;
-	padding-right: 10px;
 	height: 64px;
 	width: 100%;
 	position: fixed;
@@ -72,8 +70,27 @@ span a {
 	width: 100%;
 }
 
+.locations {
+	display: flex;
+	justify-content: space-around;
+}
+
 .item > img {
 	width: 300px;
 	height: 200px;
+}
+
+#locations {
+	background-image: url('../images/img-locations-background.jpg');
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 500px;
+	
+}
+
+.locations > .item {
+	background-color: black;
+	padding: 15px;
 }
 
